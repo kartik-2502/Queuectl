@@ -1,0 +1,11 @@
+#!/bin/bash
+JAR_PATH="$(dirname "$0")/target/queuectl-1.0.0.jar"
+if [ ! -f "$JAR_PATH" ]; then
+    echo "[QueueCTL] target/queuectl-1.0.0.jar not found. Auto-building project..."
+    mvn clean package -DskipTests
+    if [ ! -f "$JAR_PATH" ]; then
+        echo "[Error] Maven build failed. Make sure Maven is installed and in your PATH."
+        exit 1
+    fi
+fi
+java -jar "$JAR_PATH" "$@"

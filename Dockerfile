@@ -10,4 +10,4 @@ FROM eclipse-temurin:24-jre-alpine
 WORKDIR /app
 COPY --from=build /app/target/queuectl-1.0.0.jar app.jar
 EXPOSE 8080
-ENTRYPOINT ["java", "-jar", "app.jar"]
+CMD ["java", "-jar", "app.jar", "dashboard"]

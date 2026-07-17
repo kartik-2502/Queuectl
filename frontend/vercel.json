@@ -2,7 +2,7 @@
   "rewrites": [
     {
       "source": "/api/dashboard/:path*",
-      "destination": "https://queuectl-backend.onrender.com/api/dashboard/:path*"
+      "destination": "https://queuectl-4ikx.onrender.com/api/dashboard/:path*"
     }
   ]
 }

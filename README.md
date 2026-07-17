@@ -1,7 +1,8 @@
 # QueueCTL - CLI & Web Background Job Queue System
 
-> 🌐 **Live Web Console (Vercel)**: [https://queuectl-jet.vercel.app/](https://queuectl-jet.vercel.app/)  
-> ⚙️ **Live Backend API (Render)**: [https://queuectl-4ikx.onrender.com/api/dashboard/stats](https://queuectl-4ikx.onrender.com/api/dashboard/stats)
+## 🚀 Deployed Live Links
+### 🌐 [Click Here: Live Web Console Dashboard (Vercel)](https://queuectl-jet.vercel.app/)
+### ⚙️ [Click Here: Live Backend API Metrics (Render)](https://queuectl-4ikx.onrender.com/api/dashboard/stats)
 
 QueueCTL is a minimal, production-grade, background job queue system built using **Java 24**, **Spring Boot 3**, **PostgreSQL**, **Picocli**, and **ThreadPoolExecutor**. 
 
